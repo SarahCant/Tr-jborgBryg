@@ -1,0 +1,713 @@
+/* --- Meyerweb CSS reset --- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* --- Reset slut --- */
+
+/* --- Generel styling --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* --- Tekst styling --- */
+body p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -5%;
+    padding: 2.5%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    padding: 2.5%;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+em {
+    font-style: italic;
+}
+
+/* --- Tilbage til toppen knap --- */
+
+/* --- Forside --- */
+.forside-titel {
+    text-align: center;
+    padding-top: 3%;
+    position: relative;
+}
+
+.forside-titel h2 {
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 0;
+}
+
+
+.forside-billede {
+    width: 100%;
+    padding-right: 11%;
+    margin-top: -23%;
+    margin-bottom: -10%;
+}
+
+.forside-wave1 {
+    margin-top: -12%;
+    margin-bottom: -21%;
+}
+
+.forside-wave2 {
+    display: block;
+    margin-top: -21%;
+}
+
+.forside-artikel {
+    display: block;
+    margin-top: 19%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+.forside-artikel-bg {
+    background-color: #97BF4D;
+    padding-bottom: 15%;
+}
+
+.forside-artikel h3 {
+    padding-bottom: 4%;   
+}
+
+
+.forside-artikel2 {
+    width: 80%;
+    padding-left: 6%;
+}
+
+.forside-nyheder {
+    align-items: center;
+    text-align: center;
+}
+
+
+.forside-nyheder img {
+    width: 30%;
+    padding-top: 20%;
+    padding-bottom: 2%;
+
+}
+
+.forside-nyheder a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.forside-her {
+    font-style: italic;
+}
+
+/* --- Produkter: Alkoholfri --- */
+.alkoholfri-titel {
+    text-align: center;
+    position: relative;
+}
+
+.alkoholfri-titel-tekst {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: white;
+    margin-top: -4%;
+}
+
+.alkoholfri-titel-tekst h3 {
+    margin-bottom: -5%;
+    padding-top: 7%;
+}
+
+.alkoholfri-artikel {
+    width: 80%;
+    padding-left: 5%;
+    line-height: 25px;
+    margin-bottom: 10%;
+}
+
+.alkoholfri-artikel h3 {
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.alkoholfri-artikel a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.alkoholfri-artikel a:hover {
+    opacity: 0.5;
+}
+
+.alkoholfri-podium {
+    width: 100%;
+    margin-top: -1%;
+}
+
+.alkoholfri-wave {
+    margin-top: -21%;
+    position: relative;
+}
+
+.alkoholfri-div {
+    text-align: center;
+    margin-top: -7%;
+    padding-bottom: 10%;
+}
+
+.alkoholfri-div h3 {
+    margin-top: -12%;
+}
+
+.alkoholfri-div p {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alkoholfri-div img {
+    width: 80%;
+}
+
+.produkter-ipa {
+    padding-left: 5%;
+    margin-bottom: 9%;
+}
+
+.produkter-lager {
+    padding-bottom: 5%;
+}
+
+
+/* --- Kontakt --- */
+.kontakt-billede {
+   display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.5%;
+}
+
+.kontakt-billede-bg {
+        width: 100%;
+        margin-top: -2.7%;
+        background-color: #de78e7;
+        background-image: linear-gradient(#de78e7, #cc6cd5);
+}
+
+.kontakt-wave1 {
+   margin-top: -8%;
+}
+
+.kontakt-wave2 {
+    margin-top: -20%;
+    display: block;
+}
+
+.kontakt-spg {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.kontakt-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.kontakt-info a{
+    color: black;
+    text-decoration: none;
+}
+
+.kontakt-info img {
+    height: 30px;
+    padding: 5px;
+}
+
+.kontakt-some {
+   display: flex;
+   justify-content: center;
+}
+
+.kontakt-some img {
+    width: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.kontakt-kort {
+    width: 93%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* --- Vores historie --- */
+.historie-billede {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.historie-wave {
+    margin-top: -20%;
+    display: block;
+}
+
+.historie-artikel {
+    width: 80%;
+    padding-left: 5%;
+    line-height: 23px;
+}
+
+.historie-artikel-del2 {
+    padding-top: 15%;
+}
+
+.historie-artikel-del3 {
+    text-align: center;
+    padding-bottom: 4%;
+    font-style: italic;
+}
+
+/* --- Under opbygning -- */
+.opbygning-bg {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.opbygning-container {
+    margin-top: -57%;
+    margin-bottom: 42%;
+}
+
+
+.opbygning-tekst {
+    text-align: center;
+    color: black;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.opbygning-tekst p {
+    line-height: 20px;
+}
+
+
+.opbygning-tekst a {
+    text-decoration: none;
+    font-style: italic;
+    padding-bottom: 10%;
+    color: black;  
+}
+
+.opbygning-tekst a:hover {
+    opacity: 0.7;
+}
+
+
+/* --- Footer --- */
+footer {
+    background-color: #97BF4D;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    line-height: 25px;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.kontakt-ikon {
+    margin: 1px;
+    height: 25px;
+    margin: 5px;
+}
+
+
+
+
+
+/* --- STYLING PÅ STØRRE SKÆRME--- */
+@media all and (min-width: 768px){
+
+/* --- Tekst styling --- */
+body {
+    overflow-x: hidden;
+}
+
+body p {
+    font-size: 18px;
+}
+
+body h1 {
+    font-size: 80px;
+    margin-top: -3%;
+}
+
+body h2 {
+    font-size: 50px;
+}
+
+
+
+/* --- Forside --- */
+.forside-main {
+    padding-top: 8%;
+}
+
+.forside-titel{
+    padding-top: 0;
+    margin-top: 5%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forside-titel h2 {
+    margin-left: 65%;
+    width: 56%; 
+    padding: 0;
+    font-size: 40px;
+}
+
+.forside-titel h3 {
+    padding-top: 0;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 30%;
+   
+}
+
+.forside-top {
+    padding: 0;
+    margin-top: -2%;
+}
+
+
+.forside-titel h2 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.forside-billede {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16%;
+    padding-right: 0;
+    margin-bottom: -10%;
+}
+
+
+.forside-artikel {
+    margin-top: 9%; 
+    line-height: 35px; 
+    width: 50%;
+    padding-bottom: 0.5%;
+}
+
+.forside-artikel-bg {
+    padding-bottom: 10%;
+}
+
+.forside-wave1 {
+    margin-bottom: -11%;
+  
+}
+
+.forside-wave2 {
+    margin-top: -20%;
+}
+
+.forside-artikel h3 {
+    font-size: 24px;
+    padding-bottom: 0.5%;
+    padding-top: 2%;
+ 
+}
+
+.forside-artikel p {
+    font-size: 20px;
+}
+
+.forside-artikel2 {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.forside-artikel2 h3 {
+    font-size: 22px;
+}
+
+.forside-artikel2 p {
+    line-height: 30px;
+}
+
+.forside-nyheder {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+
+.forside-nyheder img {
+    width: 60%;
+    transition: .6s;
+}
+
+.forside-nyheder section:hover {
+    transform: scale(1.1);
+}
+
+.forside-ipa {
+    padding-top: 50px;
+}
+
+/* --- Kontakt --- */
+    .kontakt-titel {
+        padding: 0;
+    }
+    
+    .kontakt-billede {
+        padding-top: 0;
+        width: 60%;
+    }
+
+    .kontakt-info {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -1%;
+    }
+
+    .kontakt-info img {
+        width: 12%;
+        height: auto;
+    }
+
+    .kontakt-some img {
+        width: 95px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+/* --- Produkter: Alkoholfri --- */
+
+.alkoholfri-podium {
+    width: 50%; 
+    margin-top: -8.4%;
+}
+
+.alkoholfri-titel {
+    background-color: #52865F;
+    margin-top: -3%;
+}
+
+.alkoholfri-titel-tekst {
+    margin-top: -7%;
+}
+
+.alkoholfri-titel-tekst h2 {
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.alkoholfri-titel-tekst h3{
+    margin-bottom: 1px;
+    padding: 0;
+}
+
+.alkoholfri-artikel {
+    position: relative;
+    margin-top: 18%;
+    text-align: center;
+    margin-left: 10%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.alkoholfri-artikel h3 {
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+.alkoholfri-wave {
+    height: 50px;
+    margin-top: -20%;
+}
+
+.alkoholfri-div {
+    position: relative;
+    margin-top:1%;
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    line-height: 35px;
+}
+
+.alkoholfri-div h3 {
+    margin-top: -5%;
+}
+.alkoholfri-div img {
+    width: 95%;
+    transition: .6s;
+}
+
+.alkoholfri-div img:hover {
+    transform: scale(1.1);
+}
+
+.produkter-lager {
+    padding-bottom: 3%;
+}
+
+/* --- Vores historie --- */
+.historie-img-div {
+    height: 40em;
+    overflow: hidden;
+}
+
+.historie-billede {
+    width: 80%;
+    margin-top: -20%;
+}
+
+.historie-artikel {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.historie-artikel-del2 {
+    padding-top: 0;
+    padding-left: 5%;
+}
+
+.historie-artikel-del3 {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+/* --- Under opbygning --- */
+.opbygning-bg {
+    margin-top: 4%;
+}
+
+.opbygning-container {
+    margin-top: -43%;
+}
+
+.opbygning-tekst p {
+    font-size: 22px;
+}
+
+.opbygning-tekst a {
+    font-size: 22px;
+}
+
+/* --- Footer --- */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 25px;
+    text-align: center;
+}
+
+.kontakt-ikon {
+    height: 25px;
+    margin: 5px;
+}
+
+}
