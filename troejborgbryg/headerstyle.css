@@ -150,10 +150,10 @@ nav ul ul li a {
     box-shadow: 0 0 5px white;
 }
 
-/* Gøre forside header sticky på desktop */
+/* Gøre forside header position: fixed på desktop */
 
 .forside-header {
-   width: 100%;
+    width: 100%;
     position: fixed; 
     display: flex;
     flex-direction: column;
